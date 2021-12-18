@@ -1,0 +1,14 @@
+{
+  "name": "babel-demo-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/plugin-transform-arrow-functions": "^7.16.5"
+  },
+  "scripts": {
+    "compiler": "babel src --out-dir lib --watch"
+  }
+}
